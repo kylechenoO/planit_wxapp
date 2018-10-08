@@ -1,0 +1,13 @@
+<!--pages/recycle/recycle.wxml-->
+<text>回收</text>
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <input name="input_phone" placeholder="请输入联系电话" />
+    <input name="input_location" placeholder="请输入地址" />
+    <input name="input_desc" placeholder="请输入回收物品描述及数量" />
+  </view>
+  <view class="btn-area">
+    <button formType="submit">提交</button>
+  </view>
+</form>
